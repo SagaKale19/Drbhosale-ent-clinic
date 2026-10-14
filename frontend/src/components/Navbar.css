@@ -1,0 +1,82 @@
+.clinic-nav {
+  background: #fff;
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.07);
+  padding: 0.6rem 0;
+}
+
+.clinic-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
+}
+
+.brand-mark {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 0.65rem;
+  border-radius: 8px;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  color: var(--text);
+  font-weight: 650;
+  font-size: 1.05rem;
+}
+
+.brand-text small {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-light);
+  letter-spacing: 0.3px;
+}
+
+.clinic-nav .nav-link {
+  color: var(--text);
+  font-weight: 500;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  transition: color 0.2s, background 0.2s;
+}
+
+.clinic-nav .nav-link:hover {
+  color: var(--primary);
+  background: var(--accent);
+}
+
+.clinic-nav .nav-link.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.btn-book {
+  background: var(--primary);
+  color: #fff;
+  font-weight: 500;
+  padding: 0.55rem 1.3rem;
+  border-radius: 8px;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.btn-book:hover {
+  background: var(--primary-dark);
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .clinic-nav .navbar-nav {
+    padding: 0.75rem 0;
+    gap: 0.2rem;
+  }
+  .btn-book {
+    display: inline-block;
+    margin-top: 0.5rem;
+  }
+}

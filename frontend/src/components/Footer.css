@@ -1,0 +1,98 @@
+.clinic-footer {
+  background: #0f2b31;
+  color: #c6d6d9;
+  padding: 3.5rem 0 1.5rem;
+  margin-top: auto;
+}
+
+.footer-title {
+  color: #fff;
+  font-weight: 650;
+  margin-bottom: 0.1rem;
+}
+
+.footer-sub {
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+}
+
+.footer-text {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: #a8bcc0;
+  margin: 0;
+}
+
+.footer-heading {
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer-links,
+.footer-hours,
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin-bottom: 0.55rem;
+}
+
+.footer-links a,
+.footer-contact a {
+  color: #c6d6d9;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover,
+.footer-contact a:hover {
+  color: #fff;
+}
+
+.footer-hours li {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+  color: #a8bcc0;
+}
+
+.footer-address {
+  color: #a8bcc0;
+  line-height: 1.6;
+}
+
+.footer-divider {
+  border-color: rgba(255, 255, 255, 0.12);
+  margin: 2.5rem 0 1.25rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #8ba1a6;
+}
+
+.footer-bottom p { margin: 0; }
+
+.admin-link {
+  color: #8ba1a6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.admin-link:hover { color: #fff; }

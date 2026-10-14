@@ -1,0 +1,85 @@
+.category-card {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.75rem;
+  height: 100%;
+}
+
+.category-card h3 {
+  font-size: 1.25rem;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+}
+
+.category-intro {
+  font-size: 0.92rem;
+  color: var(--text-light);
+  margin-bottom: 1.1rem;
+  line-height: 1.6;
+}
+
+.category-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-list li {
+  position: relative;
+  padding: 0.5rem 0 0.5rem 1.4rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.93rem;
+  color: var(--text);
+}
+
+.category-list li:last-child { border-bottom: none; }
+
+.category-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.05rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+.services-note {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 0.92rem;
+  max-width: 40rem;
+  margin: 2.5rem auto 0;
+}
+
+.consult-card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 1.75rem;
+  height: 100%;
+  border-top: 3px solid var(--primary);
+  box-shadow: var(--shadow);
+}
+
+.consult-card h4 {
+  font-size: 1.15rem;
+  margin-bottom: 0.6rem;
+}
+
+.consult-card p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.consult-best {
+  background: var(--accent);
+  color: var(--primary-dark);
+  font-size: 0.87rem;
+  font-weight: 500;
+  padding: 0.6rem 0.9rem;
+  border-radius: 8px;
+}
